@@ -1,7 +1,54 @@
-@media (min-width:769px) {
+@media (min-width:580px) {
     .wrapper {
         &__main {
-            width:100%;
+            &--bottom {
+                margin-left: 125px;
+                margin-right:125px;
+            }
+        }
+    }
+}
+
+@media (min-width:800px) {
+    .wrapper {
+        &__main {
+            &--bottom {
+                margin-left: 180px;
+                margin-right:180px;
+            }
+        }
+    }
+}
+
+@media (min-width:1050px) {
+    .wrapper {
+        &__main {
+            &--bottom {
+                margin-left: 235px;
+                margin-right:235px;
+            }
+        }
+    }
+}
+
+@media (min-width:1300px) {
+    .wrapper {
+        &__main {
+            &--bottom {
+                margin-left: 285px;
+                margin-right:285px;
+            }
+        }
+    }
+}
+
+@media (min-width:1550px) {
+    .wrapper {
+        &__main {
+            &--bottom {
+                margin-left: 340px;
+                margin-right:340px;
+            }
         }
     }
 }

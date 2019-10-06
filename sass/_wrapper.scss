@@ -33,6 +33,24 @@
             .switch {
                 margin-right:20px;
             }
-        }    
+        } 
+        &--bottom {
+            display:flex;
+            justify-content: space-between;
+            margin-left:20px;
+            margin-right:20px;
+            color:#fff;
+            height:55%;
+            margin-top:7px;
+            .option {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                line-height: 1.8;
+            } 
+            .disc {
+                font-size:14px;
+            }
+        }
     }
 }
