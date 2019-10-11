@@ -6,18 +6,24 @@
         <title> Spotify HUD </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">    
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> 
         <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     </head>
+    
     <body>
 
-        <wrapper class="wrapper">
-            <section class="wrapper__main">
-                <div class="wrapper__main--proggres"></div>
-                <div class="wrapper__main--top">
+        <div class="player">
+            <section class="player__main">
+                <div class="player__main--proggres"></div>
+                <div class="player__main--top">
                     <div class="heart">
-                        <span class="far fa-heart"></span>
+                        <div class="unlike">
+                            <span class="far fa-heart"></span>
+                        </div>
+                        <div class="like">
+                            <span class="fas fa-heart"></span>
+                        </div>
                     </div>
 
                     <div class="title">Fade to Black
@@ -25,11 +31,16 @@
                     </div>
 
                     <div class="switch">
-                        <span class="fas fa-play"></span>
+                        <div class="play">
+                            <span class="fas fa-play"></span>
+                        </div>
+                        <div class="stop">
+                            <span class="fas fa-stop"></span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="wrapper__main--bottom">
+                <div class="player__main--bottom">
                     <div class="option">
                         <span class="fas fa-home"></span>
                         <span class="disc">Home</span>
@@ -47,8 +58,7 @@
                         <span class="disc">Premium</span>
                     </div>
                 </div>
-
             </section>
-        </wrapper>
+        </div>
     </body>
 </html>
