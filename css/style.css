@@ -22,7 +22,7 @@ body {
 .player__main {
   width: 100%;
   height: 100px;
-  background-color: #202426;
+  background-color: #222327;
   position: fixed;
   bottom: 0;
 }
@@ -30,7 +30,7 @@ body {
 .player__main--proggres {
   width: 15%;
   height: 2px;
-  background-color: #fff;
+  background-color: #FDFEFF;
 }
 
 .player__main--top {
@@ -46,41 +46,90 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
 }
 
 .player__main--top .heart {
   margin-left: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #FDFEFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.player__main--top .heart .unlike {
-  display: block;
+.player__main--top .heart:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform ease .1s;
+  transition: -webkit-transform ease .1s;
+  transition: transform ease .1s;
+  transition: transform ease .1s, -webkit-transform ease .1s;
 }
 
 .player__main--top .heart .like {
   display: none;
-  color: green;
+}
+
+.player__main--top .heart.liked .unlike {
+  display: none;
+}
+
+.player__main--top .heart.liked .like {
+  display: block;
+  color: #15BC59;
 }
 
 .player__main--top .title {
-  color: #fff;
+  color: #FDFEFF;
   font-size: 15px;
 }
 
 .player__main--top .title .author {
-  color: gray;
+  color: #919296;
 }
 
-.player__main--top .switch {
+.player__main--top .player {
   margin-right: 20px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #FDFEFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.player__main--top .switch .play {
-  display: block;
+.player__main--top .player:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform ease .1s;
+  transition: -webkit-transform ease .1s;
+  transition: transform ease .1s;
+  transition: transform ease .1s, -webkit-transform ease .1s;
 }
 
-.player__main--top .switch .stop {
+.player__main--top .player .play {
   display: none;
+}
+
+.player__main--top .player.paused .pause {
+  display: none;
+}
+
+.player__main--top .player.paused .play {
+  display: block;
 }
 
 .player__main--bottom {
@@ -92,7 +141,7 @@ body {
           justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
-  color: gray;
+  color: #919296;
   height: 55%;
   margin-top: 10px;
 }
