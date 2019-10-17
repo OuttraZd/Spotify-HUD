@@ -13,11 +13,22 @@
     
     <body>
 
+        <!-- Header of this section -->
+
+        <header class="home-header">
+            <p> Ostatnio odtwarzane </p>
+            <span class="fas fa-cog cog"></span>
+        </header>
+
+        <!-- Player -->
+
         <section class="player">
             <div class="player__main">
                 <div class="player__main--proggres"></div>
-                <div class="player__main--top">
 
+                 <!-- Top part of player section -->
+
+                <div class="player__main--top">
                     <button class="heart js-like">
                             <span class="far fa-heart unlike"></span>
                             <span class="fas fa-heart like"></span>
@@ -31,26 +42,29 @@
                             <span class="fas fa-play play"></span>
                             <span class="fas fa-pause pause"></span>
                         </button>
-
                 </div>
 
+                <!-- Bottom part of player section -->
+
                 <div class="player__main--bottom">
-                    <div class="option">
-                        <span class="fas fa-home"></span>
-                        <span class="disc">Home</span>
-                    </div>
-                    <div class="option">
-                        <span class="fas fa-search"></span>
-                        <span class="disc">Wyszukaj</span>
-                    </div>
-                    <div class="option">
-                        <span class="fas fa-align-justify"></span>
-                        <span class="disc">Biblioteka</span>
-                    </div>
-                    <div class="option">
-                        <span class="fab fa-spotify"></span>
-                        <span class="disc">Premium</span>
-                    </div>
+                    <div class="controls">
+                        <div class="option">
+                            <span class="fas fa-home"></span>
+                            <span class="disc">Home</span>
+                        </div>
+                        <div class="option">
+                            <span class="fas fa-search"></span>
+                            <span class="disc">Wyszukaj</span>
+                        </div>
+                        <div class="option">
+                            <span class="fas fa-align-justify"></span>
+                            <span class="disc">Biblioteka</span>
+                        </div>
+                        <div class="option">
+                            <span class="fab fa-spotify"></span>
+                            <span class="disc">Premium</span>
+                        </div>
+                    </div>           
                 </div>
             </div>
         </section>

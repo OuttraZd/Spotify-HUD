@@ -1,0 +1,21 @@
+.home-header {
+    width: 100%;
+    height: auto;
+    color:$white;
+    display: flex;
+    justify-content: space-between;
+    p {
+        font-size:28px;
+        font-weight: bold;
+        padding:20px 15px;
+        word-break: break-all;
+    }
+    .cog {
+        padding:20px 15px;
+        font-size:19px;
+        &:active {
+            transform: scale(.90);
+            transition: .1 ease;
+        }
+    }
+}

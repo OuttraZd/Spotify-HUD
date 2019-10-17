@@ -1,54 +1,31 @@
-@media (min-width:580px) {
+@media (min-width:600px) {
     .player {
         &__main {
             &--bottom {
-                margin-left: 125px;
-                margin-right:125px;
+                .controls {
+                    width:420px;
+                }
             }
         }
     }
 }
 
-@media (min-width:800px) {
-    .player {
-        &__main {
-            &--bottom {
-                margin-left: 180px;
-                margin-right:180px;
-            }
+@media (min-width:720px) {
+    .home-header {
+        position: relative;
+        p {
+            width: 100%;
+            text-align: center;
+            padding-top:20px;
+            
         }
-    }
-}
-
-@media (min-width:1050px) {
-    .player {
-        &__main {
-            &--bottom {
-                margin-left: 235px;
-                margin-right:235px;
-            }
-        }
-    }
-}
-
-@media (min-width:1300px) {
-    .player {
-        &__main {
-            &--bottom {
-                margin-left: 285px;
-                margin-right:285px;
-            }
-        }
-    }
-}
-
-@media (min-width:1550px) {
-    .player {
-        &__main {
-            &--bottom {
-                margin-left: 340px;
-                margin-right:340px;
-            }
+        .cog {
+            position: absolute;
+            right:15px;
+            top:20px;
+            padding: 20px 0 0 15px;
+            padding: 0;
+           
         }
     }
 }
