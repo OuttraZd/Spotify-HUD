@@ -1,4 +1,4 @@
-@media (min-width:600px) {
+@media (min-width:500px) {
     .player {
         &__main {
             &--bottom {
@@ -10,22 +10,19 @@
     }
 }
 
-@media (min-width:720px) {
+@media (min-width:768px) {
     .home-header {
         position: relative;
         p {
             width: 100%;
             text-align: center;
-            padding-top:20px;
-            
+            padding:25px 0;
         }
         .cog {
             position: absolute;
             right:15px;
             top:20px;
-            padding: 20px 0 0 15px;
-            padding: 0;
-           
+            padding: 0;   
         }
     }
 }
