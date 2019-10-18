@@ -1,4 +1,28 @@
+@media (min-width:350px) {
+    .player {
+        &__main {
+            &--bottom {
+                .controls {
+                    width:330px;
+                }
+            }
+        }
+    }
+}
+
 @media (min-width:500px) {
+    .player {
+        &__main {
+            &--bottom {
+                .controls {
+                    width:380px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
     .player {
         &__main {
             &--bottom {
@@ -8,21 +32,9 @@
             }
         }
     }
-}
-
-@media (min-width:768px) {
+    /* _home-header.scss */
     .home-header {
-        position: relative;
-        p {
-            width: 100%;
-            text-align: center;
-            padding:25px 0;
-        }
-        .cog {
-            position: absolute;
-            right:15px;
-            top:20px;
-            padding: 0;   
-        }
+        display: flex;
+        justify-content: center;
     }
 }
