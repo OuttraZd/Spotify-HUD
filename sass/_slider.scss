@@ -1,0 +1,68 @@
+.slider {
+    width:96%;
+    height:158px;
+    display:flex;
+    margin-left:2%;
+    margin-right:2%;
+    overflow:scroll;
+    position: relative;
+    &:active {
+        cursor:grabbing;
+        cursor:-webkit-grabbing;
+    }
+    &::-webkit-scrollbar {
+        display:none;
+    }
+    &__box {
+        width:110px;
+        height:110px;
+        margin:0 15px 0 0;
+        flex:none;
+        display: flex;
+        flex-direction: column;
+        &:active {
+            transform:scale(.95);
+            transition:ease .1s
+        }
+        &--image {
+            width:110px;
+            height: 110px;
+            position: absolute;
+        }
+        &--rounded /* For Artist */ {  
+            border-radius: 100px;
+            width:110px;
+            height: 110px;
+            flex:none;
+            margin: 0 12px 0 0;
+            position: relative;
+            &:active {
+                transform:scale(.95);
+                transition:ease .1s
+            }
+            &__image {
+                border-radius: 100px;
+                width:110px;
+                height: 110px;
+                position: absolute;
+            }
+        }
+    }
+    &__container {
+        text-align: left;
+        font-size:14px;
+        margin-top:118px;
+        &__name {
+            color:$white;
+            line-height: 1.4;
+        }
+        &__author {
+            color:$gray;
+        }
+        &--rounded /* For Artist */ {
+            text-align: center;
+            font-size:14px;
+            margin-top:118px;
+        }
+    }
+}
