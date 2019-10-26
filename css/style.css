@@ -30,6 +30,7 @@ body {
   background-color: #222327;
   position: fixed;
   bottom: 0;
+  z-index: 99;
 }
 
 .player__main--proggres {
@@ -175,7 +176,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .player__main--bottom .controls .option:active {
@@ -224,6 +225,102 @@ body {
           transform: scale(0.9);
   -webkit-transition: .1 ease;
   transition: .1 ease;
+}
+
+.silder {
+  width: 96%;
+  height: 158px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: scroll;
+  position: relative;
+}
+
+.silder:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.silder::-webkit-scrollbar {
+  display: none;
+}
+
+.silder__box {
+  width: 110px;
+  height: 110px;
+  margin: 0 15px 0 0;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.silder__box:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: ease .1s;
+  transition: ease .1s;
+}
+
+.silder__box--image {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+
+.silder__box--rounded {
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  margin: 0 12px 0 0;
+  position: relative;
+}
+
+.silder__box--rounded:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: ease .1s;
+  transition: ease .1s;
+}
+
+.silder__box--rounded__image {
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+
+.silder__container {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 118px;
+}
+
+.silder__container__name {
+  color: #FDFEFF;
+  line-height: 1.4;
+}
+
+.silder__container__author {
+  color: #919296;
+}
+
+.silder__container--rounded {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 118px;
 }
 
 @media (min-width: 350px) {

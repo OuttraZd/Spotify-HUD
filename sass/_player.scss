@@ -7,6 +7,7 @@
         background-color:#222327;
         position:fixed;
         bottom:0;
+        z-index: 99;
         &--proggres {
             width:15%;
             height:2px;
@@ -43,7 +44,7 @@
                 }
                 .like {
                     display:block;
-                    color:#15BC59;
+                    color:$green;
                 }
             }
             .title {
@@ -97,7 +98,7 @@
                     flex-direction: column;
                     align-items: center;
                     cursor:pointer;
-                    line-height: 1.8;
+                    line-height: 1.7;
                     &:active {
                         transform:scale(.90);
                         transition:transform ease .1s;
