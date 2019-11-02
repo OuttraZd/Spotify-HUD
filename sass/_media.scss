@@ -38,3 +38,12 @@
         justify-content: center;
     }
 }
+
+@media (max-width:768px) {
+    .silder {
+        margin-bottom:-25px;
+    }
+    .home-header {
+        margin-bottom:-15px;
+    }
+}
