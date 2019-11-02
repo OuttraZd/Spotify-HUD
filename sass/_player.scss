@@ -31,8 +31,7 @@
                 display: flex;
                 align-items: center;
                 &:active {
-                    transform:scale(.90);
-                    transition:transform ease .1s;
+                    @include transform;
                 }
                 .like {
                     display:none;
@@ -65,8 +64,7 @@
                 display: flex;
                 align-items: center;
                 &:active {
-                    transform: scale(.90);
-                    transition:transform ease .1s;
+                    @include transform;
                 }
                 .play {
                     display:none;
@@ -100,8 +98,7 @@
                     cursor:pointer;
                     line-height: 1.7;
                     &:active {
-                        transform:scale(.90);
-                        transition:transform ease .1s;
+                        @include transform;
                     }
                     .disc {
                         font-size:14px;

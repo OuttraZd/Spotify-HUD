@@ -1,0 +1,4 @@
+@mixin transform {
+    transform:scale(.95);
+    transition:transform ease .1s
+}

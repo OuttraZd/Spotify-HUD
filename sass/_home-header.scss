@@ -18,8 +18,7 @@
         top:22px;
         right:18px;
         &:active {
-            transform: scale(.90);
-            transition: .1 ease;
+            @include transform;
         }
     }
 }

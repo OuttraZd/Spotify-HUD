@@ -40,10 +40,10 @@
 }
 
 @media (max-width:768px) {
-    .silder {
-        margin-bottom:-25px;
+    .slider {
+        margin-bottom:-10px; //Odstęp pomiedzy "slider'ami"
     }
     .home-header {
-        margin-bottom:-15px;
+        margin-bottom:-30px; //Odstęp między ".home-header" a "slider"
     }
 }
