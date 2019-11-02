@@ -71,8 +71,8 @@ body {
 }
 
 .player__main--top .heart:active {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   -webkit-transition: -webkit-transform ease .1s;
   transition: -webkit-transform ease .1s;
   transition: transform ease .1s;
@@ -118,8 +118,8 @@ body {
 }
 
 .player__main--top .player:active {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   -webkit-transition: -webkit-transform ease .1s;
   transition: -webkit-transform ease .1s;
   transition: transform ease .1s;
@@ -180,8 +180,8 @@ body {
 }
 
 .player__main--bottom .controls .option:active {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   -webkit-transition: -webkit-transform ease .1s;
   transition: -webkit-transform ease .1s;
   transition: transform ease .1s;
