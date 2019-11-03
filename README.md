@@ -1,3 +1,15 @@
-Spotify's clone interface.
-Technology used: HTML, CSS, SASS, JS, BEM.
-Time: (October - Now).
+## Spotify Project (Spotify's interface clone)
+
+### Technology used
+
+* HTML
+* CSS
+* JS
+* SASS
+* BEM
+
+## Time
+
+```
+October - Now (In Progress)
+```
