@@ -1,4 +1,4 @@
-@font-face { font-family: ProximaNova; src: url('../fonts/ProximaNova.otf'); }
+@font-face { font-family: ProximaNova; src: url('../fonts/ProximaNova.woff2'); }
 
 * {
     -webkit-font-smoothing: antialiased;
@@ -8,6 +8,6 @@
 body {
     margin:0;
     padding:0;
-    background: linear-gradient(160deg, (#00240E) 0%, (#202020) 28%);
-    font-family: 'ProximaNova', 'Muli'
+    background: linear-gradient(160deg, (#018B36) 0%, (#202020) 28%);
+    font-family: 'ProximaNova', 'Muli';
 }

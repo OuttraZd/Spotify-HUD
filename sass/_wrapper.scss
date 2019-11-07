@@ -1,5 +1,9 @@
 .wrapper {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     &__main {
         width:100%;
@@ -13,11 +17,17 @@
             background-color:#fff;
         }
         &--top {
-            width:100%; 
+            width:100%;
             height:45%;
             border-bottom:#1F2024 3px solid;
+            display:-webkit-box;
+            display:-ms-flexbox;
             display:flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             color:#fff;
             .heart {
@@ -33,9 +43,13 @@
             .switch {
                 margin-right:20px;
             }
-        } 
+        }
         &--bottom {
+            display:-webkit-box;
+            display:-ms-flexbox;
             display:flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
             margin-left:20px;
             margin-right:20px;
@@ -43,11 +57,16 @@
             height:55%;
             margin-top:7px;
             .option {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
                 flex-direction: column;
                 text-align: center;
                 line-height: 1.8;
-            } 
+            }
             .disc {
                 font-size:14px;
             }
