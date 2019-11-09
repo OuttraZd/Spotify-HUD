@@ -23,31 +23,33 @@
 
         <!-- Player -->
 
-        <section class="player">
-            <div class="player__main">
-                <div class="player__main--proggres"></div>
+        <section class="quickAccess">
+            <div class="quickAccess__main">
+                <div class="quickAccess__main--proggres"></div>
 
                  <!-- Top part of player section -->
 
-                <div class="player__main--top">
+                <div class="quickAccess__main--top">
                     <button class="heart js-like">
-                            <span class="far fa-heart unlike"></span>
-                            <span class="fas fa-heart like"></span>
+                        <span class="far fa-heart unlike"></span>
+                        <span class="fas fa-heart like"></span>
                     </button>
 
-                    <div class="title">Fade to Black
-                        <span class="author">• Mettalica</span>
+                    <div class="toPlayer"> <!---- To Spotify's player interface -->
+                        <div class="title">Fade to Black
+                            <span class="author">• Mettalica</span>
+                        </div>
                     </div>
 
-                    <button class="player js-play">
-                            <span class="fas fa-play play"></span>
-                            <span class="fas fa-pause pause"></span>
-                        </button>
+                    <button class="quickAccess js-play">
+                        <span class="fas fa-play play"></span>
+                        <span class="fas fa-pause pause"></span>
+                    </button>
                 </div>
 
                 <!-- Bottom part of player section -->
 
-                <div class="player__main--bottom">
+                <div class="quickAccess__main--bottom">
                     <div class="controls">
                         <div class="option">
                             <span class="fas fa-home"></span>
@@ -236,8 +238,9 @@
             </div>
         </section>
 
+        <script type="text/javascript" src="scripts/toPlayer.js"></script>
         <script type="text/javascript" src="scripts/heart.js"></script>
-        <script type="text/javascript" src="scripts/player.js"></script>
+        <script type="text/javascript" src="scripts/playStop.js"></script>
         <script type="text/javascript" src="scripts/slider.js"></script>
 
     </body>

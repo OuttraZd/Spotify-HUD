@@ -1,5 +1,5 @@
 @media (min-width:350px) {
-    .player {
+    .quickAccess {
         &__main {
             &--bottom {
                 .controls {
@@ -11,7 +11,7 @@
 }
 
 @media (min-width:500px) {
-    .player {
+    .quickAccess {
         &__main {
             &--bottom {
                 .controls {
@@ -23,7 +23,7 @@
 }
 
 @media (min-width:768px) {
-    .player {
+    .quickAccess {
         &__main {
             &--bottom {
                 .controls {
@@ -34,8 +34,12 @@
     }
     /* _home-header.scss */
     .home-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 

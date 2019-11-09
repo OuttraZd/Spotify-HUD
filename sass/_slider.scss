@@ -9,7 +9,7 @@
     overflow:scroll;
     position: relative;
     &:nth-child(7) {
-        margin-bottom:120px; //Ostatni "slider" po to aby wyszedł spod "player"
+        margin-bottom:120px; // Ostatni "slider" po to aby wyszedł spod "player"
     }
     &:active {
         cursor:grabbing;
@@ -19,8 +19,8 @@
         display:none;
     }
     &__box {
-        width:120px;
-        height:115px;
+        width:110px;
+        height:110px;
         margin:0 15px 0 0;
         -webkit-box-flex:0;
         -ms-flex:none;
@@ -40,10 +40,10 @@
             height: 110px;
             position: absolute;
         }
-        &--rounded /* For Artist */ {
+        &--rounded { // For artist
             border-radius: 100px;
-            width:120px;
-            height: 115px;
+            width:110px;
+            height: 110px;
             -webkit-box-flex:0;
             -ms-flex:none;
             flex:none;
@@ -71,7 +71,7 @@
         &__author {
             color:$gray;
         }
-        &--rounded /* For Artist */ {
+        &--rounded { // For artist
             text-align: center;
             font-size:14px;
             margin-top:118px;
