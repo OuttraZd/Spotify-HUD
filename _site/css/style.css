@@ -92,31 +92,16 @@ body {
   color: #15BC59;
 }
 
-.quickAccess__main--top a,
-.quickAccess__main--top a:focus,
-.quickAccess__main--top a:visited {
-  text-decoration: none;
-}
-
-.quickAccess__main--top a .toPlayer,
-.quickAccess__main--top a:focus .toPlayer,
-.quickAccess__main--top a:visited .toPlayer {
+.quickAccess__main--top .toPlayer {
   cursor: pointer;
-  background: none;
-  outline: none;
-  border: none;
 }
 
-.quickAccess__main--top a .toPlayer .title,
-.quickAccess__main--top a:focus .toPlayer .title,
-.quickAccess__main--top a:visited .toPlayer .title {
+.quickAccess__main--top .toPlayer .title {
   color: #FDFEFF;
   font-size: 15px;
 }
 
-.quickAccess__main--top a .toPlayer .title .author,
-.quickAccess__main--top a:focus .toPlayer .title .author,
-.quickAccess__main--top a:visited .toPlayer .title .author {
+.quickAccess__main--top .toPlayer .title .author {
   color: #919296;
 }
 
