@@ -1,245 +1,249 @@
 ﻿<!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Słuchaj ulubionych wykonawców i ciesz się nieprzerwaną muzyką. Wypróbuj za darmo przez 3 miesiące. Po tym okresie usługa płatna co miesiąc. Jakość dźwięku premium. Odkryj świetnych muzyków. Playlisty na każdą chwilę. Strumień bez reklam.">
-        <title>Spotify Project</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
-    </head>
 
-    <body>
-        <!-- Header of this page -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Słuchaj ulubionych wykonawców i ciesz się nieprzerwaną muzyką. Wypróbuj za darmo przez 3 miesiące. Po tym okresie usługa płatna co miesiąc. Jakość dźwięku premium. Odkryj świetnych muzyków. Playlisty na każdą chwilę. Strumień bez reklam.">
+    <title>Spotify Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+</head>
 
-        <header class="home-header">
-            <p>Ostatnio odtwarzane</p>
-            <span class="fas fa-cog cog"></span>
-        </header>
+<body>
+    <!-- Header of this page -->
 
-        <!-- quickAccess -->
+    <header class="home-header">
+        <p>Ostatnio odtwarzane</p>
+        <span class="fas fa-cog cog"></span>
+    </header>
 
-        <section class="quickAccess">
-            <div class="quickAccess__main">
-                <div class="quickAccess__main--proggres"></div>
+    <!-- quickAccess -->
 
-                 <!-- Top part of quickAccess section -->
+    <section class="quickAccess">
+        <div class="quickAccess__main">
+            <div class="quickAccess__main--proggres"></div>
 
-                <div class="quickAccess__main--top">
-                    <button class="heart js-like">
-                        <span class="far fa-heart unlike"></span>
-                        <span class="fas fa-heart like"></span>
-                    </button>
+            <!-- Top part of quickAccess section -->
 
-                    <div class="toPlayer"> <!-- To Spotify's player interface -->
-                        <div class="title">Fade to Black
-                            <span class="author">• Mettalica</span>
-                        </div>
-                    </div>
+            <div class="quickAccess__main--top">
+                <button class="heart js-like">
+                    <span class="far fa-heart unlike"></span>
+                    <span class="fas fa-heart like"></span>
+                </button>
 
-                    <button class="quickAccess js-play">
-                        <span class="fas fa-play play"></span>
-                        <span class="fas fa-pause pause"></span>
-                    </button>
-                </div>
-
-                <!-- Bottom part of quickAccess section -->
-
-                <div class="quickAccess__main--bottom">
-                    <div class="controls">
-                        <div class="option">
-                            <span class="fas fa-home"></span>
-                            <span class="disc">Home</span>
-                        </div>
-                        <div class="option">
-                            <span class="fas fa-search"></span>
-                            <span class="disc">Wyszukaj</span>
-                        </div>
-                        <div class="option">
-                            <span class="fas fa-align-justify"></span>
-                            <span class="disc">Biblioteka</span>
-                        </div>
-                        <div class="option">
-                            <span class="fab fa-spotify"></span>
-                            <span class="disc">Premium</span>
-                        </div>
+                <div class="toPlayer">
+                    <!-- To Spotify's player interface -->
+                    <div class="title">Fade to Black
+                        <span class="author">• Mettalica</span>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="slider">
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/1.png" alt="metal/rock playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">METAL/ROCK</div>
+                <button class="quickAccess js-play">
+                    <span class="fas fa-play play"></span>
+                    <span class="fas fa-pause pause"></span>
+                </button>
+            </div>
+
+            <!-- Bottom part of quickAccess section -->
+
+            <div class="quickAccess__main--bottom">
+                <div class="controls">
+                    <div class="option">
+                        <span class="fas fa-home"></span>
+                        <span class="disc">Home</span>
+                    </div>
+                    <div class="option">
+                        <span class="fas fa-search"></span>
+                        <span class="disc">Wyszukaj</span>
+                    </div>
+                    <div class="option">
+                        <span class="fas fa-align-justify"></span>
+                        <span class="disc">Biblioteka</span>
+                    </div>
+                    <div class="option">
+                        <span class="fab fa-spotify"></span>
+                        <span class="disc">Premium</span>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+    <section class="slider">
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/1.png" alt="metal/rock playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">METAL/ROCK</div>
             </div>
+        </div>
 
-            <div class="slider__box--rounded">
-                <img class="slider__box--rounded__image" src="img/slider/3.png" alt="metallica artist">
-                <div class="slider__container--rounded">
-                    <div class="slider__container__name">Metallica</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/4.png" alt="best of architects">
-                <div class="slider__container">
-                    <div class="slider__container__name">This Is Architects</div>
-                </div>
+        <div class="slider__box--rounded">
+            <img class="slider__box--rounded__image" src="img/slider/3.png" alt="metallica artist">
+            <div class="slider__container--rounded">
+                <div class="slider__container__name">Metallica</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/4.png" alt="best of architects">
+            <div class="slider__container">
+                <div class="slider__container__name">This Is Architects</div>
             </div>
+        </div>
 
-            <div class="slider__box--rounded">
-                <img class="slider__box--rounded__image" src="img/slider/6.png" alt="ghostmane artist">
-                <div class="slider__container--rounded">
-                    <div class="slider__container__name">Ghostmane</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/7.png" alt="trench album">
-                <div class="slider__container">
-                    <div class="slider__container__name">Trench</div>
-                </div>
+        <div class="slider__box--rounded">
+            <img class="slider__box--rounded__image" src="img/slider/6.png" alt="ghostmane artist">
+            <div class="slider__container--rounded">
+                <div class="slider__container__name">Ghostmane</div>
             </div>
-        </section>
+        </div>
 
-        <header class="home-header">
-            <p>Przygotowane dla Ciebie</p>
-        </header>
-
-        <section class="slider">
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/7.png" alt="trench album">
+            <div class="slider__container">
+                <div class="slider__container__name">Trench</div>
             </div>
+        </div>
+    </section>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+    <header class="home-header">
+        <p>Przygotowane dla Ciebie</p>
+    </header>
+
+    <section class="slider">
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
-        </section>
+        </div>
 
-        <header class="home-header">
-            <p>Ulubione albumy i utwory</p>
-        </header>
-
-        <section class="slider">
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/1.png" alt="metal/rock playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">METAL/ROCK</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
             </div>
+        </div>
+    </section>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 2</div>
-                    <div class="slider__container__author">Linkin Park, Deft...</div>
-                </div>
+    <header class="home-header">
+        <p>Ulubione albumy i utwory</p>
+    </header>
+
+    <section class="slider">
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/1.png" alt="metal/rock playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">METAL/ROCK</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/7.png" alt="trench album">
-                <div class="slider__container">
-                    <div class="slider__container__name">Trench</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/2.png" alt="daily mix 2 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 2</div>
+                <div class="slider__container__author">Linkin Park, Deft...</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/4.png" alt="best of architects">
-                <div class="slider__container">
-                    <div class="slider__container__name">This Is Architects</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/7.png" alt="trench album">
+            <div class="slider__container">
+                <div class="slider__container__name">Trench</div>
             </div>
+        </div>
 
-            <div class="slider__box">
-                <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
-                <div class="slider__container">
-                    <div class="slider__container__name">Daily Mix 5</div>
-                    <div class="slider__container__author">Mayhem, Burzu...</div>
-                </div>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/4.png" alt="best of architects">
+            <div class="slider__container">
+                <div class="slider__container__name">This Is Architects</div>
             </div>
-        </section>
+        </div>
 
-        <script type="text/javascript" src="scripts/heart.js"></script>
-        <script type="text/javascript" src="scripts/playStop.js"></script>
-        <script type="text/javascript" src="scripts/slider.js"></script>
+        <div class="slider__box">
+            <img class="slider__box--image" src="img/slider/5.png" alt="daily mix 5 playlist">
+            <div class="slider__container">
+                <div class="slider__container__name">Daily Mix 5</div>
+                <div class="slider__container__author">Mayhem, Burzu...</div>
+            </div>
+        </div>
+    </section>
 
-    </body>
+    <script type="text/javascript" src="scripts/heart.js"></script>
+    <script type="text/javascript" src="scripts/playStop.js"></script>
+    <script type="text/javascript" src="scripts/slider.js"></script>
+
+</body>
+
 </html>
