@@ -12,6 +12,6 @@
 ## Time
 
 ```
-October - Now (In Progress)
+October - - - 
 ```
 #### Based on: https://www.spotify.com/
